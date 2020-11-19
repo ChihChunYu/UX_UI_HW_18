@@ -1,0 +1,185 @@
+
+.logo {
+    display:flex;
+    width:76%;
+    justify-content:center;
+    align-items:center;  
+}
+.logo_holder {
+    background-color: grey;
+    height:100px;
+    width:100px;    
+}
+.nav {
+    font-family: Montserrat, Arial;
+    font-weight: 600;
+    font-size: 36px;
+    width:10%;
+    display:inline-block;
+    padding-right:2%;
+    padding-left:2%;
+    text-align: center;
+    background-color:white
+    
+}
+
+.header {
+    display:block;
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    width:100%;     
+}
+
+.highlight {
+    background-color:blue, 100%;
+    width:100px;
+    height:5%;  
+    display:block;
+}
+
+.hero_holder {
+    background-color: grey;
+    height:80%;
+    width:80%;
+    display: inline-block;
+}
+.summary {
+    display:flex;
+    background-color: white;
+}
+.heroimg {
+    width:46%;
+    padding:2% 2%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.content{
+    display:flex;
+    width:38%;
+    padding:4% 2% 4% 10%;
+    justify-content: end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.align_right {
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content: flex-end;
+    padding: 4% 0%;
+}
+
+.align_center {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width:30%;
+    height:100%;
+    font-family: Arvo;
+    font-size: 18px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    align-items: center;
+    text-align: center;
+    border:0px;
+    background-color:#CFE9F2;
+}
+
+h1 {
+    font-family: Arvo;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+}
+
+p1 {
+    padding:0% 0% 4% 0%;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 33px;    
+    display: block;
+}
+
+p2 {
+    padding:2% 0% 2% 0%;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+footer {
+    margin:20px 0px 20px 0px;
+    background-color:#F7B5B1;
+    display: block;
+    
+}
+
+.footer_text {
+    display:flex;
+    width:40%;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5% 0% 5%;
+}
+
+.skills {
+    width:80%;
+    padding:5% 10% 5% 10%;
+    background-color: #FCE7B1;
+    display: flex;
+    justify-content: center;
+    margin:20px 0px 20px 0px;
+}
+
+.skills_detail {
+    width: 39%;
+    padding:2%;
+    text-align: center;
+}
+
+.project1 {
+    width:100%;
+    padding:0% 0% 0% 0%;
+    background-color: #A4D1C0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.project_img {
+    width: 36%;
+    padding:20% 4% 10% 0%;
+    display:flex;
+    flex-direction: column;
+}
+
+.project_img_holder {
+    background-color: grey;
+    height:450px;
+    width:100%;
+    display: inline-block;
+}
+
+.button_green {
+    background-color:#49A380;
+    color:white;
+    border:0px;
+}
