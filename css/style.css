@@ -1,58 +1,61 @@
 
-.logo {
-    display:flex;
-    width:76%;
-    justify-content:center;
-    align-items:center;  
-}
-.logo_holder {
-    background-color: grey;
-    height:100px;
-    width:100px;    
-}
-.nav {
-    font-family: Montserrat, Arial;
-    font-weight: 600;
-    font-size: 36px;
-    width:10%;
-    display:inline-block;
-    padding-right:2%;
-    padding-left:2%;
-    text-align: center;
-    background-color:white
-    
-}
-
-.header {
+.block {
     display:block;
 }
 
-.navbar {
-    display: flex;
-    background-color: white;
-    width:100%;     
-}
-
-.highlight {
-    background-color:blue, 100%;
-    width:100px;
-    height:5%;  
-    display:block;
-}
-
-.hero_holder {
-    background-color: grey;
-    height:80%;
-    width:80%;
+.inline {
     display: inline-block;
 }
+
+.nav {
+    display: flex;
+    justify-content: stretch;
+    background-color: white;    
+}
+
+
+h1 {
+    font-family: Montserrat, Arial;;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+    font-weight: 450;
+}
+
+
+p {
+    font-family: Montserrat, Arial;
+}
+
+.pageTitle {
+    width:76%;
+    justify-content:center;
+    align-items:center; 
+}
+
+.navContent {
+    
+    font-weight: 600;
+    font-size: 36px;
+    padding-right:4%;
+    padding-left:4%;
+    text-align: center;     
+}
+
+
+.navHighlight {
+    width:45%;
+    min-height: 10px;
+}
+
+
 .summary {
     display:flex;
     background-color: white;
 }
 .heroimg {
     width:46%;
-    padding:2% 2%;
+    padding:4% 2% 4% 0%;
     display:flex;
     justify-content: left;
     align-items: center;
@@ -82,30 +85,25 @@
 }
 
 button {
-    width:30%;
+    widows: 40%;
     height:100%;
-    font-family: Arvo;
+    padding: 3% 5% 3% 5%;
+    border-radius:6px;
+    color:white;
+    font-family: Montserrat, Arial;
     font-size: 18px;
-    line-height: 56px;
     letter-spacing: 0.02em;
+    font-weight: 500;
     align-items: center;
     text-align: center;
-    border:0px;
-    background-color:#CFE9F2;
+    border:0px;    
 }
 
-h1 {
-    font-family: Arvo;
-    font-size: 36px;
-    line-height: 53px;
-    letter-spacing: 0.02em;
-}
 
-p1 {
-    padding:0% 0% 4% 0%;
-    font-family: Montserrat;
+.regular {
+    font-family: Montserrat, Arial;
     font-size: 18px;
-    line-height: 33px;    
+    line-height: 200%;    
     display: block;
 }
 
@@ -143,18 +141,90 @@ footer {
 
 .skills {
     width:80%;
-    padding:5% 10% 5% 10%;
-    background-color: #FCE7B1;
-    display: flex;
-    justify-content: center;
-    margin:20px 0px 20px 0px;
+    padding:5% 10% 5% 10%;    
+    
 }
 
-.skills_detail {
-    width: 39%;
-    padding:2%;
-    text-align: center;
+.skillsContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:         
+        "skillImg1 skillImg2 skillImg3"
+        "skill1 skill2 skill3";
+    justify-content: space-between;
+    align-items: start;
+    margin:20px 0px 20px 0px;
+
 }
+
+.sectionName {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-areas: 
+        "emptyGrid skillsTitle emptyGrid";
+    justify-content: center;
+    align-items: start;    
+}
+
+
+.skillsTitle {    
+    color:white;
+    width:40%; 
+    height:100%;    
+    text-align: center;
+    align-items: center;
+    grid-column: span 3;
+}
+
+.skills_detail {    
+    width:96%;
+    border: 0% 2% 0% 2%;
+    text-align: center;
+    justify-self: center;
+}
+
+.skill1 {
+    width:96%;
+    border: 0%;    
+    grid-area: skill1;
+    justify-self: left;
+}
+
+.skill2 {
+    width:96%;
+    border: 0%;
+    grid-area: skill2;
+    justify-self: center;
+}
+
+.skill3 {
+    width:96%;
+    border: 0%;
+    grid-area: skill3;
+    justify-self: right;
+}
+
+.skillImg1 {    
+    width:92%;
+    grid-area: skillImg1;
+    justify-self: left;
+}
+
+.skillImg2 {    
+    width:92%;
+    grid-area: skillImg2;
+    justify-self: center;
+}
+
+.skillImg3 {    
+    width:92%;    
+    grid-area: skillImg3;
+    justify-self: right;
+}
+
+
+
 
 .project1 {
     width:100%;
