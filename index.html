@@ -3,6 +3,7 @@
     <head>
         <link href="../UX_UI_HW_18/CSS/style.css" rel="stylesheet" type="text/css">
         <link href="../UX_UI_HW_18/CSS/color.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/353b5a9a3f.js" crossorigin="anonymous"></script>
         
     </head>
     <body>
@@ -22,7 +23,7 @@
                 <p class="regular">I was trained for more than 6 months in the UX/UI Bootcamp at the University of California, Irvine, once I acquired my Master of Science degree specializing in Biotechnology. My UX/UI experiences focused on webpage redesigning and my research experience focused on immunology. </p1>
 
                 <p class="regular">I aim to bring user-oriented UIs to Biotechnological products.</p1>
-                <div class="align_right">
+                <div class="alignRight">
                     <button class="darkBlue">Read My Resume</button>
                 </div>
             </div>
@@ -32,37 +33,45 @@
             </div>
        </section>
        
-       <section class="lightBlue">           
+       <section class="section lightBlue">           
            <div class="sectionHeader">               
                <div class="sectionName darkBlue">
                 <p class=title>My Skills</p>
                </div>                             
            </div>
 
-           <div class="skillsContent">
-            <img src="images/Skill1.jpg" class="skillImg1">
-            <img src="images/Skill2.jpg" class="skillImg2">
-            <img src="images/Skill3.jpg" class="skillImg3">
-            <div class="skills_detail skill1">
-                <h1>UX/UI Skills</h1>
-                <p class="regular">User-Centric Design Research
-                 Visual Prototyping & Wireframing (Figma)
-                 User Interface Development
+           <div class="skills">
+               <div class="skillContent">
+                <img src="images/Skill1.jpg" class="skillImg">
+                <div class="skills_detail">
+                    <h1>UX/UI Skills</h1>
+                    <p class="regular">User-Centric Design Research
+                     Visual Prototyping & Wireframing (Figma)
+                     User Interface Development
+                    </p>               
+                </div>
+               </div>
+            
+               <div class="skillContent">               
+                <img src="images/Skill2.jpg" class="skillImg">
+                <div class="skills_detail">
+                    <h1>Research Skills</h1>
+                    <p class="regular">Immune cell isolation & culture
+                        Enzyme-linked immunosorbent assay (ELISA)
+                        Microscopy & Cell staining
+                        In Vivo Imaging System (IVIS)
+                        Mice dissection, Tissue sectioning & staining
                 </p>               
-            </div>
-            <div class="skills_detail skill2">
-                <h1>Research Skills</h1>
-                <p class="regular">Immune cell isolation & culture
-                 Enzyme-linked immunosorbent assay (ELISA)
-                 Microscopy & Cell staining
-                 In Vivo Imaging System (IVIS)
-                 Mice dissection, Tissue sectioning & staining
-                </p>              
-            </div>
-            <div class="skills_detail skill3">
-                <h1>Other Skills</h1>
-                <p class="regular">Sound-editting (Studio One, MuseScore)</p>
-            </div>
+                </div>
+               </div>
+            
+               <div class="skillContent">
+                <img src="images/Skill3.jpg" class="skillImg">
+                <div class="skills_detail">
+                    <h1>Other Skills</h1>
+                    <p class="regular">Sound-editting (Studio One, MuseScore)</p>
+                </div>
+               </div>             
            </div>
 
        </section>
@@ -70,55 +79,103 @@
        <section class="section lightYellow">
         <div class="sectionHeader">               
             <div class="sectionName darkYellow">
-             <p class=title>My Works</p>
+             <p class="title">My Works</p>
             </div>                             
         </div>
-        <div class="project1 lightGreen">
-            <div class=projectName>
+
+        <div class="projectCard project1 lightGreen">
+            <div class="projectName">
                 <h1>Endangered Species Website Redesign</h1>
             </div>
             
             <div class="projectSummary">                
-                <p>Overview</p>
-                <p>The Endangered Species (ES) Program is a website under the administration of the U.S. Fish & Wildlife Service.
-                    It provides its users with a myriad of tools that help locate ES-related information.
-                    However, the website is outdated and disorganized.
-                    Through redesigning the website by improving its navigation components, we provided a smoother user experience.                                        
-                </p>                
+                <p class="bold">Overview</p>
+                <p class="regular">The Endangered Species (ES) Program is a website under the administration of the U.S. Fish & Wildlife Service.</p> 
+                <p class="regular">It provides its users with a myriad of tools that help locate ES-related information.</p> 
+                <p class="regular">However, the website is outdated and disorganized.</p> 
+                <p class="regular">Through redesigning the website by improving its navigation components, we provided a smoother user experience.</p>                             
             </div>
 
-            <div class="projectNotes">
-                <p>My role & responsibilities</p>
-                <p>User Research, Wireframing, Usability Test</p>
-                <p>Collaborators</p>
-                <p>Ricky Tian Liu, Hoang Lan Nguyen</p>
+            <div class="projectNotes alignBottom">
+                <div>
+                    <p class="bold">My role & responsibilities</p>
+                    <p class="regular">User Research, Wireframing, Usability Test</p>
+                    <p class="bold">Collaborators</p>
+                    <p class="regular">Ricky Tian Liu, Hoang Lan Nguyen</p>
+                </div>                
             </div>
  
             <div class="projectImg">
-                <img src="../UX_UI_HW_18/images/Project1.png">                
+                <img src="../UX_UI_HW_18/images/Project1.png" >                
             </div>
 
-            <div class="projectButton">
-                <div class="align_right">
-                    <button class="button_green">Project Details</button>
+            <div class="projectButton alignBottom">
+                <div class="alignRight">
+                    <button class="darkGreen">Project Details</button>
                 </div>
+            </div>            
+        </div>
+        
+        <div class="projectCard project2 lightPurple">
+            <div class="projectName">
+                <h1>Ageless Alliance Website Redesign</h1>
+            </div>
+            
+            <div class="projectSummary">                
+                <p class="bold">Overview</p>
+                <p class="regular">Ageless Alliance is a non-profit organization that advocates against elder abuse through spreading awareness and pushing for policy changes.</p> 
+                <p class="regular">However, its website is confusing and not convenient for users to navigate.</p> 
+                <p class="regular">Through redesigning for a user-friendly interface focusing on sharing stories and making donations, we improved the user experience.</p> 
+            </div>
+
+            <div class="projectNotes alignBottom">
+                <div>
+                    <p class="bold">My role & responsibilities</p>
+                    <p class="regular">User Research, Wireframing, Usability Test</p>
+                    <p class="bold">Collaborators</p>
+                    <p class="regular">Angela Vasquez, Erin Kim</p>
+                </div>                
             </div>
  
+            <div class="projectImg">
+                <img src="../UX_UI_HW_18/images/Project2.png" >                
+            </div>
+
+            <div class="projectButton alignBottom">
+                <div class="alignLeft">
+                    <button class="darkPurple">Project Details</button>
+                </div>
+            </div>            
         </div>
        </section>
     </body>
-    <footer>
+
+    <footer class="lightRed">
+        <div class="sectionHeader">               
+            <div class="sectionName darkRed">
+             <p class="title">Let's Connect!</p>
+            </div>                             
+        </div>
+
         <div class="align_center">
-            <div class="footer_text">
-                <h1>Let's Connect!</h1>
-                <p1>I am seeking opportunities to join a team that is passionate about bringing positive changes to the community.</p1>
-                <p1>jerrymrc@hotmail.com</p1>
+            <div class="footer_text">                
+                <p>I am seeking opportunities to join a team that is passionate about bringing positive changes to the community.</p>
+                <p class="link">jerrymrc@hotmail.com</p>
             </div>            
         </div>
+        
         <div class="footer_links">
-            <p1>Back to Home</p1>
-            <p1>Resume</p1>
-            <p1>My LinkedIn</p1>
+            <div class="toResume">                
+                <p><i class="far fa-id-card"></i> My Resume</p>
+            </div>
+
+            <div class="toTop">                
+                <p><i class="fas fa-angle-double-up"></i> Back to Top</p>
+            </div>
+
+            <div class="toLinkedin">                
+                <p><i class="fab fa-linkedin"></i> My LinkedIn</p>
+            </div>
         </div>
 
     </footer>
